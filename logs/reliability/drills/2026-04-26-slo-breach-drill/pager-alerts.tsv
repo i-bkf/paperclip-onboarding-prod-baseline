@@ -1,0 +1,3 @@
+timestamp_utc	alert_id	slo_id	severity	pager_route	state	message
+2026-04-26T13:02:04Z	ALERT-2026-04-26-slo-breach-drill-1	signup_request_success	critical	pager-growth	fired	Signup API availability SLO breached by 1.80pp
+2026-04-26T13:02:04Z	ALERT-2026-04-26-slo-breach-drill-2	workspace_first_access_latency	critical	pager-platform	fired	First workspace access latency SLO breached by 1.60pp

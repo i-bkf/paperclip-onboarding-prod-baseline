@@ -1,0 +1,3 @@
+# env	monthly_budget_usd	warning_threshold_pct	critical_threshold_pct	alert_route
+staging	300	75	90	pager-platform
+production	1800	80	95	pager-finops

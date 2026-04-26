@@ -1,0 +1,6 @@
+# metric	period_start_utc	period_end_utc	value	unit	notes
+outreach_volume	2026-04-18T00:00:00Z	2026-04-24T23:59:59Z	42	candidates	Outbound messages and direct referrals entered into tracker
+positive_response_rate	2026-04-18T00:00:00Z	2026-04-24T23:59:59Z	19.0	percent	Positive replies divided by total outreach volume
+follow_up_lag_median	2026-04-18T00:00:00Z	2026-04-24T23:59:59Z	21	hours	Median lag from due follow-up to completed touch
+interviews_scheduled	2026-04-18T00:00:00Z	2026-04-24T23:59:59Z	6	count	Screens scheduled inside target weekly window
+screening_pass_rate	2026-04-18T00:00:00Z	2026-04-24T23:59:59Z	33.3	percent	Candidates passing screening divided by completed screenings

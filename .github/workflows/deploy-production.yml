@@ -1,0 +1,19 @@
+name: Deploy Production
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type YES to confirm production deployment"
+        required: true
+        default: "NO"
+
+jobs:
+  deploy-production:
+    if: github.event.inputs.confirm == 'YES'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to production
+        run: make deploy-production

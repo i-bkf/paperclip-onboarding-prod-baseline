@@ -1,0 +1,4 @@
+* @paperclip/engineering
+.github/workflows/* @paperclip/engineering @paperclip/platform
+scripts/* @paperclip/platform
+docs/operations/* @paperclip/platform

@@ -1,0 +1,6 @@
+# candidate_id	candidate_name	source	current_stage	owner	last_touch_utc	stage_entered_utc	next_follow_up_utc	interview_slot_utc	response_sla_status	stage_age_hours	next_action	next_action_owner
+RC-001	A. Diallo	LinkedIn outbound	follow_up_1	Recruiting Ops (RC-01)	2026-04-26T09:00:00Z	2026-04-25T09:00:00Z	2026-04-27T09:00:00Z		on_track	24	Send second follow-up if no reply by 2026-04-27	Recruiting Ops (RC-01)
+RC-002	M. Haddad	GitHub outbound	positive_response	Recruiting Ops (RC-01)	2026-04-26T11:30:00Z	2026-04-26T08:30:00Z	2026-04-27T11:30:00Z	2026-04-28T14:00:00Z	on_track	3	Send calendar invite and prep brief	Recruiting Ops (RC-01)
+RC-003	S. Mensah	Referral	screen_scheduled	Recruiting Ops (RC-01)	2026-04-26T10:15:00Z	2026-04-24T10:15:00Z	2026-04-27T10:15:00Z	2026-04-27T16:30:00Z	on_track	48	Confirm interviewer availability and send reminder	Recruiting Ops (RC-01)
+RC-004	L. Traore	LinkedIn outbound	follow_up_2	Recruiting Ops (RC-01)	2026-04-26T07:45:00Z	2026-04-22T07:45:00Z	2026-04-28T07:45:00Z		at_risk	96	Escalate stale stage and decide recycle or close	CTO
+RC-005	Y. Adeyemi	Inbound application	screen_passed	CTO	2026-04-26T12:00:00Z	2026-04-25T12:00:00Z	2026-04-27T12:00:00Z	2026-04-29T13:00:00Z	on_track	24	Advance to technical interview loop	CTO

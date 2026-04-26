@@ -1,0 +1,4 @@
+# slo_id	core_journey	sli	target_pct	actual_pct	window_days	owner	pager_route
+signup_request_success	Signup API availability	Percent of POST /api/v1/signup responses that are non-5xx.	99.90	99.96	30	growth-oncall	pager-growth
+workspace_first_access_latency	First workspace access latency	Percent of GET /api/v1/workspaces/{id} responses under 800ms.	99.00	99.12	30	platform-oncall	pager-platform
+activation_completion_rate	Activation completion	Percent of signups that fire onboarding.activation_completed within 24h.	90.00	91.20	30	product-oncall	pager-growth
